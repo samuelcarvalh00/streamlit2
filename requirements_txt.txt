@@ -4,10 +4,11 @@ numpy>=1.24.0
 
 # Visualização de dados
 plotly>=5.15.0
+plotly-express>=0.4.1
 
 # Interface web/dashboard
 streamlit>=1.28.0
-plotly-express>=0.4.1
+
 
 # Biblioteca padrão do Python (não precisa instalar)
 # json - já incluído no Python
