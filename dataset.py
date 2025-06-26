@@ -2,7 +2,7 @@ import json
 import pandas as pd
 
 # Criar uma variável de inserir dados
-baseDeDados = open('dados/vendas.json', 'r', encoding='utf-8')
+baseDeDados = open('Dados/vendas.json', 'r', encoding='utf-8')
 
 # Abrir com json
 dadosTratados = json.load(baseDeDados)
