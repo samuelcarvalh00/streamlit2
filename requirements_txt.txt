@@ -1,0 +1,12 @@
+# Análise de dados
+pandas>=1.5.0
+numpy>=1.24.0
+
+# Visualização de dados
+plotly>=5.15.0
+
+# Interface web/dashboard
+streamlit>=1.28.0
+
+# Biblioteca padrão do Python (não precisa instalar)
+# json - já incluído no Python
