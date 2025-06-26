@@ -1,16 +1,17 @@
 import json
 import pandas as pd
 
-#criar uma variavel de inserir dados
-baseDeDados = open('dados/vendas.json')
+# Criar uma variável de inserir dados
+baseDeDados = open('dados/vendas.json', 'r', encoding='utf-8')
 
-#abrir com json
+# Abrir com json
 dadosTratados = json.load(baseDeDados)
 
-#exibir
-#prints(dadosTratados)
-df  = pd.DataFrame.from_dict(dadosTratados)
-#imprimir dados
+# Criar DataFrame
+df = pd.DataFrame.from_dict(dadosTratados)
+
+# Imprimir dados
 print(df)
-#fechar
-baseDeDados.close() 
+
+# Fechar arquivo
+baseDeDados.close()
